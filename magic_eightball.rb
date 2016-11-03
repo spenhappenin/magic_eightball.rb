@@ -1,13 +1,24 @@
 require 'pry'
+require 'babbler'
+
+puts Babbler.babble
+
 @default_answers = [
 		'It is certain.',
 		'It is decidedly so.',
 		'Without a doubt.',
 		'Yes, definitely.',
 		'You may rely on it.',
-		'As I see it, yes.',
+		'Does a bear shit in the woods?',
 		'Most likely.',
-		'Outlook good.'
+		'Outlook good.',
+		'No',
+		'Unfortunately no.',
+		'Try asking again later.',
+		'Not a single chance!',
+		'If I said yes, would that make you feel better?',
+		'Not likely',
+		'Bwahahaha! Ya... right.'
 	]
 @user_answers = []
 @combined_answers = []
